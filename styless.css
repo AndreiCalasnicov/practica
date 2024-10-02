@@ -1,0 +1,26 @@
+html, body { 
+    margin:0;
+    padding:0;
+    }
+    
+    body{
+      background-image:
+    url(fon-1920x1080.jpg)}
+    input { 
+        background-color: rgb(26, 227, 103);
+        border-color: #0074D9;
+        accent-color: auto;
+         display: block;
+         width: 160px;
+       }
+       button{
+        display: inline-block;
+        padding: 8px 15px;
+        background-color: #0074D9;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        font-size: 11px;
+        cursor: pointer;
+        text-decoration: none;
+}

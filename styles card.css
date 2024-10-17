@@ -1,0 +1,24 @@
+.image{
+    border: 3px solid rgb(18, 201, 91);
+    border-radius: 10px;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+h1{
+    margin-bottom: 0%;
+}
+
+h2{
+    margin-top: 0%;
+}
+button{
+    border: 3px solid rgb(88, 36, 172);
+    padding: 5px;
+}

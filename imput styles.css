@@ -1,0 +1,48 @@
+form{
+    border: 3px solid rgb(19, 14, 1);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: brown;
+    font-family: sans-serif;
+}
+h2{
+    color: aquamarine;
+    
+}
+input{
+    padding: 3px;
+    border: 3px  solid rgb(49, 3, 232);
+
+}
+input:invalid {
+    border-bottom: 3px solid rgb(10, 0, 0);
+    border-color: #ef4a0e;
+}
+input:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(10, 0, 0) ;
+    background-color: floralwhite;
+}
+
+input:invalid {
+    border-bottom: 3px solid rgb(10, 0, 0);
+    border-color: #ef4a0e;
+}
+input:hover{
+    background-color: #38e911;
+    margin-left: 3px;
+    margin-top: 5px;
+
+}
+
+button{
+    padding: 3px;
+    background-color: #8007f1;
+    color: #38e911;
+    border: 3px solid #ef4a0e; 
+
+}
+button:hover{
+    background-color: rgb(99, 2, 2);
+    margin-left: 3px;
+}

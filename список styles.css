@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+a{
+text-decoration: none;
+}
+.col{
+/*  border: 1px solid black;*/
+    width: 45%;
+    display: inline-block;
+}
+
+ol li {
+    position: relative;
+    padding-bottom: 5px;
+    /* Подходит для создания пространства под элементом */
+}
+
+ol li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height:4px;
+    /* Толщина линии */
+    background-color: black;
+    /* Цвет линии */
+}
+h1{
+    text-align: center;
+}
+.plans{
+    display: none;
+}
+.plans:target{
+    display:inline-block;
+}

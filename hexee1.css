@@ -1,0 +1,72 @@
+body {
+    background-color: #889;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* Выравнивает элементы по вертикали */
+    background-color: #e4e5eb;
+    margin: 200px 5%;
+    padding: 32px 20px;
+    border-radius: 15px;
+}
+
+.text {
+    transform: translateX(35px);
+}
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 255px;
+    width: 44%;
+    margin-left: 10%;
+    margin-right: 255%;
+    object-fit: contain;
+    transform: scale(0.7);
+    position: relative;
+
+
+}
+
+.headinght {
+    color: #555;
+    line-height: 35px;
+}
+
+.description {
+    color: #889;
+    line-height: 25px;
+}
+
+.action {
+    background-color: #0e37ac !important;
+    color: #e4e5eb;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: #030814;
+}
+
+.move {
+
+    position: absolute;
+    top: -200px;
+    /* Настройте значение, чтобы переместить картинку вверх */
+}
+
+button {
+    width: 300px;
+
+    
+}
+section{
+    width: 800px;
+}

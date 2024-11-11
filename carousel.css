@@ -1,0 +1,30 @@
+body{
+    background-color: #234;
+}
+.carusel{
+
+    width: 300px;
+    height: 500px;
+    perspective: 1000px;
+    margin-top: 95px;
+    margin-left: 555px;
+}
+.carusel>div{
+width: 300px;
+height: 0px;
+}
+.carusel>div:nth-child(3){
+    transform: rotateY(-60deg);
+    transform-origin: left;
+    filter: brightness(70%);
+    filter: blur(3px);
+    
+}
+.carusel>div:nth-child(2) {
+    transform: rotateY(-45deg);
+    transform-origin: left;
+    filter:brightness(70%)
+}
+.carusel>div:nth-child(1) {
+    filter: brightness(70%);
+}

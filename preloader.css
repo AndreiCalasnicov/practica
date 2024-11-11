@@ -1,0 +1,61 @@
+body {
+    background-color: #333;
+}
+
+.preloader {
+
+    width: 100px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    background-image: radial-gradient(white, white black);
+    border-radius: 100%;
+    animation: bounce 10s 10;
+    background-color: rgb(195, 49, 49);
+    animation-direction: alternate;
+
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(150px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.label {
+    width: 200px;
+    color: rgb(210, 138, 138);
+    margin: auto;
+    text-align: center;
+}
+
+.shadow {
+    width: 100px;
+    height: 50px;
+    background-image: radial-gradient(balk, transparent);
+    background-color: rgb(166, 60, 60);
+    border-radius: 100%;
+    transform: translateY(150px);
+    box-shadow: 5px 5px 5px rgb(166, 60, 60);
+    animation: flicker 10s 5;
+    animation-direction: alternate;
+    transition: box-shadow 0.5s ease-in-out;
+    background-image: -moz-radial-gradient(black,white);
+}
+
+@keyframes flicker {
+for {opacity: 2;}
+
+to {opacity: 0;}
+
+    }

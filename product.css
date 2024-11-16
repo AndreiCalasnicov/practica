@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(7, 78, 55);
+}
+.product{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрирует кнопку по горизонтали */
+    justify-content: center;
+    /* Центрирует кнопку по вертикали */
+    height: 100vh;
+    /* Высота контейнера равна высоте экрана */
+}
+
+.container button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+background-color: rgb(223, 138, 27);
+    
+}
+
+.hidden-text {
+    max-height: 0;
+    overflow: hidden;
+   
+    text-align: center;
+    color: aliceblue;
+    transition: max-height 3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+.container:focus-within .hidden-text,
+.container:hover .hidden-text {
+        max-height: 220px}

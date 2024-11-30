@@ -1,0 +1,136 @@
+body {
+    background-color: #889;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #12174c ;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #030814;
+
+}
+.hexee-navbar a:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid transparent;
+    transform: translateX(-100%);
+}
+.hexee-navbara:hover::before{
+    border-bottom: #e4e5eb;
+    transform: translateX(0%);
+    transition: 0.5s;
+}
+nav{
+    background-color: #e4e5eb;
+    box-shadow:5px 5px 5px 5px rgba(112, 106, 106, 0.5);
+   padding: 10px;
+}
+img{
+    background-color: #12174c;
+    
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    
+}
+.APPEXY-LOGO{
+    float: left;
+    padding: 8px 0;
+    margin-right: 8px;
+}
+nav ul li a {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 0px;
+    
+}
+
+.account-links{
+    float: right;
+   margin: 0px;
+}
+.clear {
+    clear: both;
+}
+.container {
+    display: flex;
+    align-items: center;
+    /* Выравнивает элементы по вертикали */
+    background-color: #e4e5eb;
+    margin: 200px 5%;
+    padding: 32px 20px;
+    border-radius: 15px;
+}
+
+.text {
+    transform: translateX(35px);
+}
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 255px;
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 500px;
+    object-fit: contain;
+    transform: scale(0.7);
+    position: relative;
+
+
+}
+
+.headinght {
+    color: #555;
+    line-height: 35px;
+}
+
+.description {
+    color: #889;
+    line-height: 25px;
+}
+
+.action {
+    background-color: #0e37ac !important;
+    color: #e4e5eb;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: #030814;
+}
+
+.move {
+
+    position: absolute;
+    top: -200px;
+    margin-left: 60px;
+    /* Настройте значение, чтобы переместить картинку вверх */
+}
+
+button {
+    width: 300px;
+
+    
+}
+section{
+    width: 1500px;
+    padding: 1px;
+}

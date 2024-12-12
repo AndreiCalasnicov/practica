@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scrol.css">
+    <title>SCROL_EFECT</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-scrollspy/2.4.1/simple-scrollspy.min.js"
+        integrity="sha512-NNb5TgmE+7PHedvAWwPKZ/ukCGJciTHZ23ghPriEeEfcGySDBm9zIrjaXp/WNAUcVYhi5XhJ1rHveDKR35CInw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <script>
+        window.onload = function () {
+            scrollSpy('#nav-bar', {
+                sectionClass: '.section',
+                menuActiveTarget: '.menu-item',
+                offset: 100,
+                // smooth scroll
+                smoothScroll: true,
+                smoothScrollBehavior: function (element) {
+                    console.log('run "smoothScrollBehavior"...', element)
+                    element.scrollIntoView({ behavior: 'smooth' }) // default behavior
+                }
+            })
+        }
+    </script>
+    <nav class="nav-bar">
+        <a href="#s-1">Lorem</a>
+        <a href="#s-2">Id quia</a>
+        <a href="#s-3">Ullam,</a>
+        <a href="#s-4">Rerum</a>
+        <a href="#s-5">Ullam</a>
+    </nav>
+    <div class="container">
+    <section id="s-1" class="section">
+        <h2>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+    </section>
+    <section id="s-2" class="section">
+        <h2>2. Id quia quidem repellendus distinctio facilis. Id, asperiores!</h2>
+    </section>
+    <section id="s-3" class="section">
+        <h2>3. Ullam, est et sequi quaerat id ut voluptatibus!</h2>
+    </section>
+    <section id="s-4" class="section">
+        <h2>4. Rerum, voluptatibus adipisci aliquid similique aut et saepe.</h2>
+    </section>
+    <section id="s-5" class="section">
+        <h2>5. Ullam fugit nam quia! Incidunt ratione natus quia.</h2>
+    </section>
+    </div>
+</body>
+</html>

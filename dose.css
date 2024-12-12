@@ -1,0 +1,83 @@
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+    order: -1;
+    text-transform: uppercase;
+}
+body{
+    font-weight: 400;
+    font-size: normal;
+    color: #6c757d;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+h1,h2,h3{
+    color: #505458;
+}
+section{
+    text-align: center;
+}
+.highlight {
+    color: rgb(12, 12, 12);
+    /* Цвет выделенного слова */
+    font-weight: bold;
+    /* Жирное выделение */
+}
+p,h3,h2,h4{
+    margin: 1vh;
+    padding: 0;
+}
+ol{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+ol li{
+    width: 30%;
+}
+h4{
+    font-size: 20px;
+}
+svg{
+    width: 60px;
+    fill:#505458;
+    border-radius: 47% 70% 50% 50% / 26% 20% 80% 74%;
+    padding: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* Устанавливает направление столбца */
+    align-items: center;
+    /* Центрирует содержимое по горизонтали */
+}
+
+.icon {
+    order: -1;
+        /* Устанавливает порядок, чтобы иконка была выше заголовка */
+}
+ #second{
+    background-color: #a4f0f0;
+ }
+ #third{
+    background-color: beige;
+ }
+ #first{
+    background-color: rgb(246, 222, 186);
+ }

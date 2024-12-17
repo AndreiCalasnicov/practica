@@ -1,0 +1,59 @@
+.card{
+    box-shadow: 1px 1px 7px 0px #bbc;
+border-radius: 5px;
+margin: 20px;
+padding: 20px;
+min-height: 200px;
+position: relative;
+overflow: hidden;
+width: 400px; ;
+}
+.card .label{
+    background-color: red;
+color: #f7f3f3f8;
+transform: rotate(45deg);
+padding: 5px 20px;
+position: absolute;
+right: -25px;
+top: 40px;
+text-transform: uppercase;
+}
+li,ol{
+    list-style: none;
+    padding: 0;
+}
+button{
+    padding:18px 164px 20px;
+    background: linear-gradient(90deg, #1f61eb 0, #94b4f5);
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+        cursor: pointer;
+        
+
+}
+
+           .container {
+               display: flex;
+            position: relative;
+               justify-content: center;
+            top: -95px;
+               /* Высота контейнера на весь экран */
+           }
+    
+          
+h1{
+    text-align: center;
+}
+svg{
+    height: 16px;
+}
+.small-text {
+    font-size: 50%;
+    text-align: center;
+}
+.price{
+    color: #141cbb;
+}

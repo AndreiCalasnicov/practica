@@ -4,9 +4,258 @@
     font-weight: 300;
     font-style: normal;
 }
+
 .raleway-500 {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+.swipermySwiper {
+    margin: 0 20px;
+}
+
+#raleway-300 {
+    padding: 0;
+    margin: 0;
+}
+
+.swiper-wrapper .swiper-slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-wrapper .swiper-content {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    padding: 100px;
+    margin-left: -500px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(237, 226, 226);
+    padding: 3vh;
+    background-color: black;
+    height: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    /* Вертикальное выравнивание */
+    align-items: center;
+    /* Горизонтальное выравнивание */
+    text-align: center;
+    /* Центрирование текста */
+    padding: 20px;
+    margin:25px 1px -5px;
+    position: relative;
+    top: 55px
+}
+
+.heading1 {
+    letter-spacing: 15px;
+}
+
+.heading2 {
+    letter-spacing: 15px;
+}
+
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.text1 {
+    position: absolute;
+    white-space: pre-line;
+    top: 400px;
+    /* Позиционирование по вертикали */
+    left: 800px;
+    /* Позиционирование по горизонтали */
+    z-index: 0;
+    /* Установим z-index для порядка наложения */
+}
+
+.text {
+    white-space: pre-line;
+    position: absolute;
+    top: 465px;
+
+        }
+
+.heading4 {
+    position: absolute;
+    top: 350px;
+    /* Позиционирование по вертикали */
+    left: 800px;
+    /* Позиционирование по горизонтали */
+    z-index: 3;
+    /* Установим z-index для порядка наложения */
+}
+
+.a1 {
+    position: absolute;
+    top: 450px;
+    /* Позиционирование по вертикали */
+    left: 800px;
+    /* Позиционирование по горизонтали */
+    z-index: 1;
+    /* Установим z-index для порядка наложения */
+}
+
+.heading5 {
+    position: absolute;
+    left: 800px;
+    top: 320px;
+    z-index: 1;
+}
+
+/* RESET TO SCC */
+body,
+.swiper-content,
+p,
+h1,
+h2,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }

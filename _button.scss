@@ -1,0 +1,66 @@
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 0.25em 0.5em;
+    border: none;
+    background-color: #fff;
+    color: #ddd;
+    text-shadow: -0.025em -0.025em 0 #3338, -0.025em -0.025em 0 #fff9ff;
+    cursor: pointer;
+    border-radius: 1em;
+    margin: 0.25em;
+     svg {
+        margin-right: 0.5em;
+       height: 1.5em;
+       width: auto !important;
+
+    }
+        &-light {
+            background-color: #ddd;
+            color: #ddd;
+            text-shadow: -0.025em -0.025em 0 #3338, -0.025em -0.025em 0 #fff9ff;
+    
+            svg {
+                filter: drop-shadow(-0.025em -0.025em 0 #3338) drop-shadow(-0.025em -0.025em 0 #f0eaf0);
+            }
+        }
+
+                   &-dark {
+                       background-color: #666;
+                    color: #0b0909;
+                       text-shadow: -0.025em -0.025em 0 #3338, -0.025em -0.025em 0 #100f10;
+        
+                       svg {
+                           filter: drop-shadow(-0.025em -0.025em 0 #3338) drop-shadow(-0.025em -0.025em 0 #120112);
+                       }
+                   }
+                   &-large{
+                    font-size: 180%;
+                   }
+}
+
+
+
+
+.btn:hover {
+    background-color: #dbe4db;
+    
+
+}
+
+/* Режим active */
+.btn:active {
+    background-color: #deedde;
+    filter: drop-shadow(0.25em 0.25em 0) #0bc10b;
+    transform: translateY(4px);
+    transform: rotate(4deg);
+}
+
+/* Режим disabled */
+.btn:disabled {
+    background-color: #282727;
+    color: #a09797;
+    cursor: not-allowed;
+    list-style: none;
+}
+

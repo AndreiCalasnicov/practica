@@ -1,0 +1,141 @@
+.navbar {
+  background: #222;
+  padding: 0 25px;
+  border-radius: 40px;
+  width: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  ul {
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+    justify-content: flex-start;
+    display: flex;
+
+    li {
+      margin: 0;
+      position: relative;
+
+      a {
+        display: block;
+        padding: 15px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        transition: background 0.3s;
+        margin-left: 0px;
+
+        &:hover {
+          background: #444;
+          color: #ffd700;
+        }
+      }
+    }
+
+    li.surses {
+      margin-left: auto;
+      a {
+        font-weight: bold;
+        color: #ffd700;
+      }
+    }
+  }
+
+  // Адаптивность для мобильных устройств
+  @media (max-width: 700px) {
+    width: 85%;
+    border-radius: 10px;
+    padding: 0 5px;
+
+    ul {
+      flex-direction: column;
+
+      li, li.surses {
+        margin-left: 10px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+
+body{
+   background-image: url('1679171258.jpg');
+background-size: cover;      // картинка растягивается на весь экран
+  background-repeat: no-repeat; // не повторяется
+  margin: 0;
+  padding:0;
+  .info-photo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+  margin: 40px auto;
+
+}
+
+.info-block {
+  flex: 1;
+  padding-right: 40px;
+  color: #0c0b0b;
+}
+.photo-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;   // вертикальное расположение
+  align-items: flex-end;    // всё вправо
+
+  img {
+    max-width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #222;
+    margin-bottom: 20px;    // отступ между img и input
+  }
+}
+
+.custom-input-block {
+  background: linear-gradient(90deg, #ffd700 5%, #ff9800 100%);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(51, 49, 49, 0.15);
+padding: 15px;
+  max-width: 200px;
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;      // выравнивание вправо
+  text-align: center;
+  align-items: center;
+  
+  
+  label {
+    font-size: 25px;
+    color: #222;
+    margin-bottom: 1px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  input {
+    padding:  16px;
+    border: 2px solid #ff9800;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 60%;
+    
+    
+
+    &:focus {
+      border-color: #222;
+      background: #fffbe6;
+    }
+  }
+}
+}
